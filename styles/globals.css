@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&display=swap');
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: 'Noto Naskh Arabic', serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-left: 12px;
+}
+
+nav .logo {
+  margin-right: auto;
+  display: flex;
+}
+
+form {
+  text-align: center;
+  padding: 1rem;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 100%;
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}
+
+::-webkit-input-placeholder {
+  text-align: right;
+  margin-right: 0.25rem;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: right;  
+  margin-right: 0.25rem;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: right;  
+  margin-right: 0.25rem;
+}
+
+:-ms-input-placeholder {  
+  text-align: right; 
+  margin-right: 0.25rem;
+}
+
+.data-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.3rem;
+}
+
+.about-content {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.3rem;
+  background: #fff;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+}
+
+.about-content h4 {
+  text-align: center;
+  color: #e0c45c;
+}
+
+.about h3 {
+  text-align: right;
+  color: #e0c45c;
+  font-weight: bold;
+  padding: .3rem;
+  margin: .5rem;
+}
+
+h5 {
+  color: #e0c45c;
+}
+
+.result {
+  text-align: right;
+  color: #e0c45c;
+  font-weight: bold;
+  padding: .3rem;
+  margin: .5rem;
+}
+
+.about {
+  text-align: right;
+}
+
+.data {
+  text-align: right;
+  max-width: 500px;
+  margin: 1rem;
+  font-size: 1.2rem;
+  border-bottom: #eaeaea 1px solid;
+  font-family: 'Noto Naskh Arabic', serif;
+  font-weight: 400;
+}
+
+.data h4 {
+  text-align: center;
+  color: #e0c45c;
+}
+
+.data:last-child {
+  border-bottom: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  color: #e0c45c;
+}
+
+li span {
+  color: #000;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+
